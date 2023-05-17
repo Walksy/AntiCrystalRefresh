@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "walksynocrystalrefresh",
+  "version": "${version}",
+
+  "name": "Walksy Anti Crystal-Refresh",
+  "description": "Stops crystals from refreshing for no reason",
+  "authors": [
+    "Walksy"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Walksy"
+  },
+
+  "license": "MIT",
+  "icon": "assets/norefresh/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "walksy.anticrystalrefresh.WalksyAntiCrystalRefresh"
+    ]
+  },
+
+  "mixins": [
+    "anticrystalrefresh.mixins.json"
+  ],
+
+  "depends": {
+    "midnightlib": "*"
+  }
+}

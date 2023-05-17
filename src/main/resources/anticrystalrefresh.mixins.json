@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "walksy.anticrystalrefresh.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "EndCrystalItemMixin",
+    "ItemStackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
