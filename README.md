@@ -1,3 +1,3 @@
-# WalksyAntiCrystalRefresh
-Stops crystals randomly refreshing!  
+# AntiCrystalRefresh
+Stops crystals refreshing in your hotbar 
   
